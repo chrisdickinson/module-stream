@@ -1,0 +1,24 @@
+{
+  "name": "module-stream",
+  "version": "0.0.0",
+  "description": "locate a module, immediately returning a read stream for file data",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chrisdickinson/module-stream.git"
+  },
+  "keywords": [
+    "locate",
+    "module",
+    "resolve",
+    "path"
+  ],
+  "author": "Chris Dickinson <chris@neversaw.us>",
+  "license": "MIT",
+  "dependencies": {
+    "through": "~2.1.0"
+  }
+}
